@@ -1,0 +1,6 @@
+* ~focus.el~ support for ~lsp-mode~
+  lsp-focus provides support for ~focus.el~ using language server protocol's
+  ~textDocument/foldingRange~ functionality. It can be enabled with
+ #+BEGIN_SRC emacs-lisp
+ (add-hook 'focus-mode-hook #'lsp-focus-mode)
+ #+END_SRC
