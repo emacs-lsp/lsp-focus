@@ -1,11 +1,11 @@
 ;;; lsp-focus.el --- focus.el support for lsp-mode    -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2019  Vibhav Pant <vibhavp@gmail.com>
+;; Copyright (C) 2019-2020  Vibhav Pant <vibhavp@gmail.com>
 
 ;; Author: Vibhav Pant
-;; Version: 0.1
+;; Version: 1.0.0
 ;; Keywords: languages lsp-mode
-;; Package-Requires: ((focus "0.1.1") (lsp-mode "20190326.522"))
+;; Package-Requires: ((focus "0.1.1") (lsp-mode "6.1"))
 ;; URL: https://github.com/emacs-lsp/lsp-focus
 
 ;; This program is free software; you can redistribute it and/or modify
