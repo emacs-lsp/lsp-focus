@@ -32,6 +32,7 @@
 ;;; Code:
 
 (require 'focus)
+(require 'lsp-mode)
 
 (defgroup lsp-focus nil
   "LSP support for focus.el"
