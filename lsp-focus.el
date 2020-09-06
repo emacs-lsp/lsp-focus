@@ -5,7 +5,7 @@
 ;; Author: Vibhav Pant
 ;; Version: 1.0.0
 ;; Keywords: languages lsp-mode
-;; Package-Requires: ((emacs "24.1") (focus "0.1.1") (lsp-mode "6.1"))
+;; Package-Requires: ((emacs "26.1") (focus "0.1.1") (lsp-mode "6.1"))
 ;; URL: https://github.com/emacs-lsp/lsp-focus
 
 ;; This program is free software; you can redistribute it and/or modify
