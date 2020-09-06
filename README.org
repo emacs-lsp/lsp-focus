@@ -1,3 +1,6 @@
+[[https://melpa.org/#/lsp-focus][file:https://melpa.org/packages/lsp-focus-badge.svg]]
+[[https://stable.melpa.org/#/lsp-focus][file:https://stable.melpa.org/packages/lsp-focus-badge.svg]]
+
 * ~focus.el~ support for ~lsp-mode~
   lsp-focus provides support for ~focus.el~ using language server protocol's
   ~textDocument/foldingRange~ functionality. It can be enabled with
