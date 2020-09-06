@@ -41,7 +41,7 @@
 (defcustom lsp-focus-thing 'lsp--range
   "`Thing' to use for focus.el."
   :type '(choice (const lsp--range)
-		 (const lsp--folding-range)))
+                 (const lsp--folding-range)))
 
 ;;;###autoload
 (define-minor-mode lsp-focus-mode
@@ -53,8 +53,8 @@
       (signal 'lsp-capability-not-supported (list "foldingRangeProvider")))
     (make-local-variable 'focus-mode-to-thing)
     (setq focus-mode-to-thing
-	  (append `((,major-mode . ,lsp-focus-thing))
-		  (assq-delete-all major-mode focus-mode-to-thing))))
+          (append `((,major-mode . ,lsp-focus-thing))
+                  (assq-delete-all major-mode focus-mode-to-thing))))
    (t
     (kill-local-variable 'focus-mode-to-thing))))
 
