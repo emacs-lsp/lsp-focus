@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "lsp-focus"
          "1.0.0"
          "focus.el support for lsp-mode")
