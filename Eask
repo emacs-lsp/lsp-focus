@@ -14,7 +14,7 @@
 (source "gnu")
 (source "melpa")
 
-(depends-on "emacs" "27.1")
+(depends-on "emacs" "28.1")
 (depends-on "focus" "0.1.1")
 (depends-on "lsp-mode" "6.1")
 
